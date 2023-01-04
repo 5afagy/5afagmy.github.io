@@ -19,40 +19,34 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: KHAFAGY                         # the main title
+title: KHAFAGY                          # the main title
 
-tagline: Penteration Tester   # it will display as the sub-title
+tagline: Penteration Tester  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
- ### Penteration Tester ###
+   ### Penteration Tester ###
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://5afagy.github.io/'
 
-
-
 github:
-  username: 5afagy   # change to your github username
+  username: 5afagy             # change to your github username
 
 twitter:
-  username: 5afagy      # change to your twitter username
+  username: 5afagy           # change to your twitter username
 
-  
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ali Khafagy
-  email: ali5afagy@gmail.com             # change to your email address
+  email: ali5afagy@gmail.com           # change to your email address
   links:
-    - https://github.com/5afagy
     # The first element serves as the copyright owner's link
-   # - https://www.linkedin.com/in/khafagy
-
-    #- https://www.twitter.com/5afagy   # change to your twitter homepage
-          # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
-    #- https://www.facebook.com/khafagy5
-    
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
 
@@ -93,7 +87,7 @@ avatar: https://media-exp1.licdn.com/dms/image/C4D03AQEssHW2cM8OOg/profile-displ
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments: 
+comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
