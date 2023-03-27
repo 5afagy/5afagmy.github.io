@@ -7,6 +7,7 @@ tags: [Machine]
 
 ---
 
+
 ## **Introduction:**
 
 The goal of this project is to help visually impaired individuals to identify colors by using OpenCV to detect colors in real-time. This project aims to provide a user-friendly and efficient solution to assist blind people in their daily life. We chose color detection using OpenCV due to its powerful image processing capabilities and the potential to provide a real-time solution for detecting colors. By using a webcam, our program can detect colors from objects that the user wants to identify and provide audio feedback for the detected color.
