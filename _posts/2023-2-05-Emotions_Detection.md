@@ -133,4 +133,4 @@ The V-Eye project has shown promising results in recognizing emotions of individ
 
 1. OpenCV library - [https://opencv.org/](https://opencv.org/)
 2. Deep Learning - [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)
-3. Emotion Detection Using Facial Expressions - [https://ieeexplore.ieee.org/abstract/document/7545565/](https://ieeexplore.ieee.org/abstract/document/7545565/)
+3. Emotion Detection Using Facial Expressions - [https://ieeexplore.ieee.org/document/8710406](https://ieeexplore.ieee.org/document/8710406)
