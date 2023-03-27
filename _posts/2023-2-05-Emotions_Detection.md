@@ -3,7 +3,7 @@ title: Emotions Detection to Assist Blind People V-Eye Project
 author: khafagy
 date: 2023-3-20 18:32:00 -0500
 categories: [Project]
-tags: [Machine ]
+tags: [Machine]
 
 ---
 
