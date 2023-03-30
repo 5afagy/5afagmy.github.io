@@ -73,11 +73,10 @@ cv2.destroyAllWindows()
 ```
 
 ### Libraries used:
-
-- cv2: OpenCV library for computer vision and image processing
-- numpy: library for array operations and numerical computations
-- keras.models: library for building and training deep learning models
-- pyttsx3: library for text-to-speech conversion
+- `cv2`: OpenCV library for image processing and computer vision.
+- `numpy`: NumPy library for numerical computing in Python.
+- `keras.models`: Keras library for building deep learning models.
+- `pyttsx3`: pyttsx3 library for text-to-speech conversion.
 
 ## **Functions:**
 
@@ -118,6 +117,18 @@ q. `cv2.waitKey()`: This function waits for a specified number of milliseconds f
 r. `cap.release()`: This method releases the video capture object.
 
 s. `cv2.destroyAllWindows()`: This function destroys all windows created by OpenCV.
+
+### Code Explanation:
+
+The code is a real-time emotion detection program that uses the webcam feed to detect emotions on people's faces. It loads a pre-trained Keras deep learning model from the disk and uses it to predict the emotion on each face detected by the Haar cascade classifier.
+
+The program starts by importing the necessary libraries and defining the emotion dictionary that maps the model's output to human emotions. Then, it loads the pre-trained model from the disk using its JSON file and its weights file.
+
+Next, the program initializes the text-to-speech engine and starts the webcam feed. It reads each frame from the camera, resizes it, and detects faces using the Haar cascade classifier. Then, it takes each face detected and preprocesses it by cropping and resizing it to fit the input shape of the model.
+
+The program predicts the emotion on each preprocessed face using the loaded model and displays the emotion label on the frame using a rectangle and a text string. Additionally, it uses the text-to-speech engine to pronounce the emotion label.
+
+Finally, the program shows the processed frame in a window and waits for the user to press the 'q' key to exit. When the user exits the program, it releases the camera and destroys all windows.
 
 ### Results:
 
