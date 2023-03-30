@@ -70,7 +70,8 @@ and will open cmd and write this command
 and login with new password 
       
   
-Check my video on my linkedin more detiels from this post. [Check Post](https://www.linkedin.com/posts/khafagy_software-windows-bypass-activity-7047049591736668160-XlqK?utm_source=share&utm_medium=member_desktop) 
+Check my video on my linkedin more detiels from this post. 
+[Check Post](https://www.linkedin.com/posts/khafagy_software-windows-bypass-activity-7047049591736668160-XlqK?utm_source=share&utm_medium=member_desktop) 
 
 Finally, you can close the prompt command window, and with administrative permissions, you can log onto the system.
 
