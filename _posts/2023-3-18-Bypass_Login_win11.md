@@ -26,11 +26,6 @@ press the **SHIFT**+ **F10** keyboard shortcut to open Command Prompt.
 
 ![image](https://user-images.githubusercontent.com/115117722/228718592-9b691645-c236-4433-b1bb-e3f71beebb93.png)
 
-At this point, type the following commands to make backup of your 
-existing Accessibility Manager tool (Utilman.exe), and replace 
-Utilman.exe with cmd.exe.
-
-
 
 Type the following command to move from the X:Sources folder to the root folder of your Windows 11 installation and press Enter:
 
@@ -45,6 +40,7 @@ Type the following command to navigate to the System32 folder and press Enter:
 
 Type the following commands to replace the Utility Manager button with direct access to Command Prompt from the Sign-in screen and press Enter (on each line):
 
+At this point, type the following commands to make backup of your existing Accessibility Manager tool (Utilman.exe), and replace Utilman.exe with cmd.exe.
 
 `ren utilman.exe utilman_bak.exe`
 
