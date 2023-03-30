@@ -1,7 +1,7 @@
 ---
 title: Exploit vulnerability to bypass login windows 11, 10 , 8.1 and 7
 author: khafagy
-date: 2023-3-28 18:32:00 -0500
+date: 2023-3-28 19:32:00 -0500
 categories: [Awareness]
 tags: [vulnerability]
 
