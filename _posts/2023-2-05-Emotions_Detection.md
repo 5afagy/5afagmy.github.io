@@ -124,7 +124,7 @@ The code is a real-time emotion detection program that uses the webcam feed to d
 
 The program starts by importing the necessary libraries and defining the emotion dictionary that maps the model's output to human emotions. Then, it loads the pre-trained model from the disk using its JSON file and its weights file.
 
-Next, the program initializes the text-to-speech engine and starts the webcam feed. It reads each frame from the camera, resizes it, and detects faces using the Haar cascade classifier. Then, it takes each face detected and preprocesses it by cropping and resizing it to fit the input shape of the model.
+Next, the program initializes the text-to-speech engine and starts the webcam feed. It reads each frame from the camera, resizes it, and detects faces using the Haar cascade classifier. 
 
 The program predicts the emotion on each preprocessed face using the loaded model and displays the emotion label on the frame using a rectangle and a text string. Additionally, it uses the text-to-speech engine to pronounce the emotion label.
 
