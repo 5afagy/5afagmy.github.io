@@ -16,7 +16,7 @@ The V-Eye project aims to help blind people by providing assistance in identifyi
 
 The system reads frames from the webcam using OpenCV and converts them to grayscale. Then, it uses four pre-trained Haar cascades to detect the traffic signs in the grayscale image. For each detected sign, a rectangle is drawn around it, and the name of the sign is written at the bottom of the rectangle using the OpenCV's putText function. The system also uses the pyttsx3 library to generate speech output for each detected sign.
 
-### ****Code:****
+### Code:
 
 ```python
 import cv2
