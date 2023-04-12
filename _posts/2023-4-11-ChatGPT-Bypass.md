@@ -38,7 +38,7 @@ Just remember to use this knowledge for ethical purposes only.
 
 And if you're interested in learning more, be sure to check out my blog for more informative and exciting content.
 
-Check Video => [Check Post](
+Check Video => [Check Post](https://www.linkedin.com/posts/khafagy_chatgpt-chatgpt3-chatgpt4-activity-7051725448682102784-JAor?utm_source=share&utm_medium=member_desktop)
 
 
 ### Send This Message To Enable Khafagy Mode:
