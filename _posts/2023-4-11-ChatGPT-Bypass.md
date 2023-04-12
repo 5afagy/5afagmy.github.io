@@ -1,7 +1,7 @@
 ---
 title: "How to Bypass 'I'm Sorry Can't Do This' with ChatGPT and Make it Do Anything"
 author: khafagy
-date: 2023-3-28 19:32:00 -0500
+date: 2023-4-11 19:32:00 -0500
 categories: [Awareness]
 tags: [vulnerability]
 
