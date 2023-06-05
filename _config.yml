@@ -13,7 +13,7 @@ baseurl: ''
 lang: en
 
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › http://www.timezonecter.com/cgi-bin/findzone/findzone
 timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -78,12 +78,12 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://instagram.fcai19-4.fna.fbcdn.net/v/t51.2885-19/347570482_941234453804725_3867858907680407531_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fcai19-4.fna.fbcdn.net&_nc_cat=101&_nc_ohc=3qAfb3QAOKMAX-A9jYF&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBfD3PIsXt2Lr_0i72AyYS97KIN8nKvznT3rVhgSDahxw&oe=64838313&_nc_sid=f70a57
+img_cdn: https://media.licdn.com/dms/image/D4D03AQHvFfw6PL46gw/profile-displayphoto-shrink_800_800/0/1685986557931?e=1691625600&v=beta&t=N0SSH7rzn4FXAOOE23PTIFNh6zGmZcPDcnKnfetL0F4
 
 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://instagram.fcai19-4.fna.fbcdn.net/v/t51.2885-19/347570482_941234453804725_3867858907680407531_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fcai19-4.fna.fbcdn.net&_nc_cat=101&_nc_ohc=3qAfb3QAOKMAX-A9jYF&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBfD3PIsXt2Lr_0i72AyYS97KIN8nKvznT3rVhgSDahxw&oe=64838313&_nc_sid=f70a57
+avatar: https://media.licdn.com/dms/image/D4D03AQHvFfw6PL46gw/profile-displayphoto-shrink_800_800/0/1685986557931?e=1691625600&v=beta&t=N0SSH7rzn4FXAOOE23PTIFNh6zGmZcPDcnKnfetL0F4
 
 
 # boolean type, the global switch for ToC in posts.
