@@ -1,11 +1,22 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Embedded Website</title>
   </head>
-  <body>    
-    <script>
-     alert(`Hi`+` `+`Dear`+` I'll Redirect To Chatgpt Plus`+`\n\n`+`Don't forget Khafagy Mode 💀`+`\n\n`);window.location.href=`http://111.230.242.219:8081/chat` 
+  <body>
+    <div id="embeddedContent"></div>
+<script>
+const url = 'https://localhost'; // Replace with the URL of the website you want to embed
+const embeddedContent = document.getElementById('embeddedContent');
+
+fetch(url)
+  .then(response => response.text())
+  .then(data => {
+    embeddedContent.innerHTML = data; // Set the retrieved HTML content as the innerHTML of the target element
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
     </script>
   </body>
 </html>
