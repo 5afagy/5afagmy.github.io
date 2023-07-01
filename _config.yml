@@ -78,18 +78,18 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://media.licdn.com/dms/image/D4D03AQHvFfw6PL46gw/profile-displayphoto-shrink_800_800/0/1685986557931?e=1691625600&v=beta&t=N0SSH7rzn4FXAOOE23PTIFNh6zGmZcPDcnKnfetL0F4
+img_cdn: https://media.licdn.com/dms/image/D4D03AQFSiAQQtXCYIg/profile-displayphoto-shrink_800_800/0/1687876819483?e=1693440000&v=beta&t=01zdn4lkyzgLYhQYTL0fUrtDijgOahknnXj52IYxrMs
 
 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://media.licdn.com/dms/image/D4D03AQHvFfw6PL46gw/profile-displayphoto-shrink_800_800/0/1685986557931?e=1691625600&v=beta&t=N0SSH7rzn4FXAOOE23PTIFNh6zGmZcPDcnKnfetL0F4
+avatar: https://media.licdn.com/dms/image/D4D03AQFSiAQQtXCYIg/profile-displayphoto-shrink_800_800/0/1687876819483?e=1693440000&v=beta&t=01zdn4lkyzgLYhQYTL0fUrtDijgOahknnXj52IYxrMs
 
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
+comments: enable 
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
