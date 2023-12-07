@@ -1,7 +1,7 @@
 ---
 title: Exploring the Phishing Mail Analysis Insights from Let's Defend
 author: khafagy
-date: 2023-12-8 18:32:00 -0500
+date: 2023-12-7 18:32:00 -0500
 categories: [Security Analyst]
 tags: [Phishing]
 
