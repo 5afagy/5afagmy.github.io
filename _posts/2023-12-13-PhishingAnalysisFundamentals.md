@@ -16,6 +16,7 @@ In Task 2, we explore the historical context of email. The invention of the emai
 
 **Answer the question:** ```1970s``` 
 
+---
 
 # Task 3:  Email Delivery 
 
@@ -38,6 +39,7 @@ Article Link: https://help.dreamhost.com/hc/en-us/articles/215612887-Email-clien
 
 
 
+---
 
 
 # Task 4: Email Header Analysis
@@ -67,6 +69,7 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 **Q2:** ```http://www.arin.net/``` 
 
 
+---
 
 # Task 5: Email Body 
 
@@ -124,6 +127,9 @@ We can solve it using terminal or cyberchef.
 
 ![Screenshot_2023-12-14_19_54_13](https://github.com/5afagy/5afagy.github.io/assets/115117722/e8a32234-5b0c-4eda-bd3a-065139f3cf52)
 
+
+
+---
 
 # Task 6: Types of Phishing
 
