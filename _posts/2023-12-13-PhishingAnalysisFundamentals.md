@@ -7,6 +7,11 @@ tags: [Security Analyst]
 
 ---
 
+# Tools:
+- [CyberChef](https://gchq.github.io/CyberChef/)
+- [Base64](https://www.baeldung.com/linux/cli-base64-encode-decode)
+  
+
 # Task 2:  The Email Address 
 
 In Task 2, we explore the historical context of email. The invention of the email dates back to the 1970s, marking a significant milestone in communication technology.
