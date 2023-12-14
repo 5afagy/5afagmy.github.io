@@ -7,7 +7,7 @@ tags: [Security Analyst]
 
 ---
 
-# Task 2:  The Email Address 
+## Task 2:  The Email Address 
 
 In Task 2, we explore the historical context of email. The invention of the email dates back to the 1970s, marking a significant milestone in communication technology.
 
@@ -16,7 +16,7 @@ In Task 2, we explore the historical context of email. The invention of the emai
 **Answer the question:** ```1970s``` 
 
 
-# Task 3:  Email Delivery 
+## Task 3:  Email Delivery 
 
 To comprehend the nuances of various email protocols, we refer to an article. The article highlights that secure IMAP employs port 993, insecure IMAP uses port 143, secure SMTP operates on port 465, and insecure SMTP utilizes ports 587. Similarly, secure POP3 is on port 995, and insecure POP3 employs port 110.
 
@@ -38,7 +38,7 @@ Article Link: https://help.dreamhost.com/hc/en-us/articles/215612887-Email-clien
 
 
 
-# Task 4: Email Header Analysis
+## Task 4: Email Header Analysis
 
 Before addressing Task 4 questions, it's imperative to read the provided article on understanding email headers, available at [Media Temple](https://mediatemple.net/community/products/all/204643950/understanding-an-email-header).
 
@@ -67,7 +67,7 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 
 
 
-# Task 5: Email Body 
+## Task 5: Email Body 
 
 Task 5 requires a careful examination.
 
@@ -126,7 +126,7 @@ We can solve it using terminal or cyberchef.
 
 
 
-# Task 6: Types of Phishing
+## Task 6: Types of Phishing
 
 Upon analyzing the contents of `email3.eml`, we discover relevant information in its headers. The following details are found:
 
