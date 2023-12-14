@@ -17,7 +17,7 @@ In Task 2, we explore the historical context of email. The invention of the emai
 
 **Answer the question:** ```1970s``` 
 
-<br><br>
+<br> <br>
 ## Task 3:  Email Delivery 
 
 To comprehend the nuances of various email protocols, we refer to an article. The article highlights that secure IMAP employs port 993, insecure IMAP uses port 143, secure SMTP operates on port 465, and insecure SMTP utilizes ports 587. Similarly, secure POP3 is on port 995, and insecure POP3 employs port 110.
@@ -41,7 +41,7 @@ Article Link: https://help.dreamhost.com/hc/en-us/articles/215612887-Email-clien
 
 
 
-<br><br>
+<br> <br>
 
 ## Task 4: Email Header Analysis
 
@@ -72,7 +72,7 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 
 
 
-<br><br>
+<br> <br>
 ## Task 5: Email Body 
 
 Task 5 requires a careful examination.
