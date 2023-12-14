@@ -184,6 +184,7 @@ Centralizing logs streamlines access, facilitates in-depth analysis, and acceler
 
 ### Benefits
 Realize benefits such as real-time detection, automatic notifications, and seamless integration with incident management tools.
+
 ![Screenshot_2023-12-14_14-21-45](https://github.com/5afagy/5afagy.github.io/assets/115117722/a75875fd-07b5-4b01-abb8-f6f1c5c61e92)
 
 
