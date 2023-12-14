@@ -96,7 +96,7 @@ In the attached virtual machine, view the information in `email2.txt` and recons
 
 We can solve it using terminal or cyberchef.
 
-**Using terminal:**
+## Using terminal:
 
 **Step 1:** Take this and open terminal and write this command ```nano encode.txt``` and `Ctrl + Shift + c` to paste and `Ctrl + x` to save.<br>
 
@@ -110,7 +110,8 @@ We can solve it using terminal or cyberchef.
 
 ![Screenshot_2023-12-14_22_15_22](https://github.com/5afagy/5afagy.github.io/assets/115117722/6232f049-2833-4bcb-a635-a0329ca4e88f)
 
-Using CyberChef:
+## Using CyberChef:
+
 **Step 1:** Paste content in cyberchef <br>
 **Step 2:** Drag and Drop  `From Base64`<br>
 **Step 3:** Click on magic wand<br>
