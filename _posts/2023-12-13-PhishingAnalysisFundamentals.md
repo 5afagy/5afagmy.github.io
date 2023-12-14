@@ -7,7 +7,7 @@ tags: [Security Analyst]
 
 ---
 
-# Phishing Attack Lab Writeup
+# Phishing Analysis Fundamentals
 
 ## Task 2:  The Email Address 
 
@@ -17,7 +17,8 @@ In Task 2, we explore the historical context of email. The invention of the emai
 
 **Answer the question:** ```1970s``` 
 
-
+---
+<br><br>
 ## Task 3:  Email Delivery 
 
 To comprehend the nuances of various email protocols, we refer to an article. The article highlights that secure IMAP employs port 993, insecure IMAP uses port 143, secure SMTP operates on port 465, and insecure SMTP utilizes ports 587. Similarly, secure POP3 is on port 995, and insecure POP3 employs port 110.
@@ -40,6 +41,8 @@ Article Link: https://help.dreamhost.com/hc/en-us/articles/215612887-Email-clien
 
 
 
+---
+<br><br>
 
 ## Task 4: Email Header Analysis
 
@@ -64,11 +67,12 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 
 ![image](https://github.com/5afagy/5afagy.github.io/assets/115117722/f4df6b8a-5dae-4d8f-94b5-b8f2ba6ffcd5)
 
-### Q1 *Answer the question:** ```Return-Path```  
-### Q2 *Answer the question:** ```http://www.arin.net/``` 
+### Q1 **Answer the question:** ```Return-Path```  
+### Q2 **Answer the question:** ```http://www.arin.net/``` 
 
 
-
+---
+<br><br>
 ## Task 5: Email Body 
 
 Task 5 requires a careful examination.
@@ -79,7 +83,7 @@ Inspect the HTML code segment for the image URI.
 ![Screenshot_2023-12-14_21-59-44](https://github.com/5afagy/5afagy.github.io/assets/115117722/32b15a73-4dd0-4ebe-9dd6-e7631e43b058)
 
 
-### Q2: [Answer within the source code]
+**Q2:** Answer within the source code
 
 ![Screenshot_2023-12-14_22-02-42](https://github.com/5afagy/5afagy.github.io/assets/115117722/c4a11889-9281-4d5d-82b7-ade0734dbbca)
 
@@ -92,7 +96,7 @@ In the attached virtual machine, view the information in `email2.txt` and recons
 
 ![Screenshot_2023-12-14_19_47_43](https://github.com/5afagy/5afagy.github.io/assets/115117722/91c23c11-9355-4f1e-b9b9-f42cb839d32d)
 
-### Q3: [Answer using CyberChef or Terminal]
+**Q3:** Answer using CyberChef or Terminal
 
 We can solve it using terminal or cyberchef.
 
