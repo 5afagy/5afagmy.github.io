@@ -11,7 +11,7 @@ tags: [Security Analyst]
 ## Introduction 
 Explore the fundamentals of phishing analysis in this comprehensive journey, covering the intricacies of email addresses, delivery mechanisms, headers, body content, and various types of phishing attacks.
 
-Explore these concepts in a hands-on way with the resources available at TryHackMe - ![Phishing Analysis Fundamentals](https://tryhackme.com/room/phishingemails1tryoe).
+Explore these concepts in a hands-on way with the resources available at TryHackMe - [Phishing Analysis Fundamentals](https://tryhackme.com/room/phishingemails1tryoe).
 
 ## Task 2:  The Email Address 
 
