@@ -64,8 +64,8 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 
 ![image](https://github.com/5afagy/5afagy.github.io/assets/115117722/f4df6b8a-5dae-4d8f-94b5-b8f2ba6ffcd5)
 
-### Q1 *Answer the question:** ```Return-Path```  
-### Q2 *Answer the question:** ```http://www.arin.net/``` 
+**Q1:** ```Return-Path```  
+**Q2:** ```http://www.arin.net/``` 
 
 
 
@@ -79,7 +79,7 @@ Inspect the HTML code segment for the image URI.
 ![Screenshot_2023-12-14_21-59-44](https://github.com/5afagy/5afagy.github.io/assets/115117722/32b15a73-4dd0-4ebe-9dd6-e7631e43b058)
 
 
-### Q2: [Answer within the source code]
+**Q2:** Answer within the source code
 
 ![Screenshot_2023-12-14_22-02-42](https://github.com/5afagy/5afagy.github.io/assets/115117722/c4a11889-9281-4d5d-82b7-ade0734dbbca)
 
@@ -92,7 +92,7 @@ In the attached virtual machine, view the information in `email2.txt` and recons
 
 ![Screenshot_2023-12-14_19_47_43](https://github.com/5afagy/5afagy.github.io/assets/115117722/91c23c11-9355-4f1e-b9b9-f42cb839d32d)
 
-### Q3: [Answer using CyberChef or Terminal]
+**Q3:** Answer using CyberChef or Terminal
 
 We can solve it using terminal or cyberchef.
 
