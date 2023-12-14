@@ -71,7 +71,7 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 
 Task 5 requires a careful examination.
 
-### Q1: In the above screenshots, what is the URI of the blocked image?
+**Q1: In the above screenshots, what is the URI of the blocked image?**
 Inspect the HTML code segment for the image URI.
 
 ![Screenshot_2023-12-14_21-59-44](https://github.com/5afagy/5afagy.github.io/assets/115117722/32b15a73-4dd0-4ebe-9dd6-e7631e43b058)
