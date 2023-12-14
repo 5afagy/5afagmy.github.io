@@ -98,8 +98,10 @@ We can solve it using terminal or cyberchef.
 
 **Using terminal:**
 
-**Step 1:** Take this and open terminal and write this command ` nano encode.txt` and `Ctrl + Shift + c` to paste and `Ctrl + x` to save.<br>
+**Step 1:** Take this and open terminal and write this command ```nano encode.txt``` and `Ctrl + Shift + c` to paste and `Ctrl + x` to save.<br>
+
 **Step 2:** run this command to echo content file and use base64 decode then redirect output to file khafagy.pdf `cat encode.txt | base64 -d > khafagy.pdf`<br>
+
 **Step 3:** run this command to open pdf ` open khafagy.pdf `<br>
 
   ![Screenshot_2023-12-14_22_14_57](https://github.com/5afagy/5afagy.github.io/assets/115117722/64020a88-a0e8-4211-8171-3456db72353f)
