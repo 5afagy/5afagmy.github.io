@@ -16,7 +16,6 @@ In Task 2, we explore the historical context of email. The invention of the emai
 
 **Answer the question:** ```1970s``` 
 
----
 
 # Task 3:  Email Delivery 
 
@@ -38,8 +37,6 @@ Article Link: https://help.dreamhost.com/hc/en-us/articles/215612887-Email-clien
 - **Insecure Transport for POP3:** Port 110
 
 
-
----
 
 
 # Task 4: Email Header Analysis
@@ -69,7 +66,7 @@ Once the email sender's IP address is found, you can search for it at `http://ww
 **Q2:** ```http://www.arin.net/``` 
 
 
----
+
 
 # Task 5: Email Body 
 
@@ -129,7 +126,6 @@ We can solve it using terminal or cyberchef.
 
 
 
----
 
 # Task 6: Types of Phishing
 
