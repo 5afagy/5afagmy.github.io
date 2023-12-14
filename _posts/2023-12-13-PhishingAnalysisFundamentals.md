@@ -7,10 +7,6 @@ tags: [Security Analyst]
 
 ---
 
-# Tools:
-- [CyberChef](https://gchq.github.io/CyberChef/)
-- [Base64](https://www.baeldung.com/linux/cli-base64-encode-decode)
-  
 
 # Task 2:  The Email Address 
 
@@ -202,5 +198,10 @@ Click `Ctrl + f` to search in body => CLICK
 
 **Q4:**  `hxxp[://]t[.]teckbe[.]com/p/?j3=EOo=wFacEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==` <br>
 
+---
 
+# Tools:
+- [CyberChef](https://gchq.github.io/CyberChef/)
+- [Base64](https://www.baeldung.com/linux/cli-base64-encode-decode)
+  
 With this, we conclude the phishing attack lab. Goodbye.
