@@ -7,8 +7,6 @@ tags: [Security Analyst]
 
 ---
 
-# Phishing Attack Lab Writeup
-
 ## Task 2:  The Email Address 
 
 In Task 2, we explore the historical context of email. The invention of the email dates back to the 1970s, marking a significant milestone in communication technology.
