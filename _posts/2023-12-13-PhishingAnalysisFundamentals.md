@@ -190,13 +190,13 @@ Click `Ctrl + f` to search in body => CLICK
 
 
 
-**Q1:** `Home Depot` 
-<br>
-**Q2:**  `support@teckbe[.]com`
-<br>
-**Q3:**  `Order Placed : Your Order ID OD2321657089291 Placed Successfully  `
-<br>
-**Q4:**  `hxxp[://]t[.]teckbe[.]com/p/?j3=EOo=wFacEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==`
+**Q1:** `Home Depot` <br>
+
+**Q2:**  `support@teckbe[.]com` <br>
+
+**Q3:**  `Order Placed : Your Order ID OD2321657089291 Placed Successfully ` <br>
+
+**Q4:**  `hxxp[://]t[.]teckbe[.]com/p/?j3=EOo=wFacEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==` <br>
 
 
 With this, we conclude the phishing attack lab. Goodbye.
