@@ -46,26 +46,91 @@ Upon accessing the machine, I discovered a note.txt file on the desktop. Upon in
 The Combined log format, includes extra fields like referrer and user agent. It's commonly used as the default logging format by Nginx.
 
 ```bash
-
-damianhall@WEBSRV-02:~/logs$ cat combined.log
-34.253.159.159 - adversary [31/May/2023:13:55:36 +0000] "GET /explore HTTP/1.1" 200 4886 "http://gitlab.swiftspend.finance/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+damianhall@WEBSRV-02:/var/log/gitlab/nginx$ tail -n 10 access.log
+34.253.159.159 - - [14/Dec/2023:23:08:50 +0000] "GET /7 HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:50 +0000] "GET /_lib HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /_media HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /7z HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /_mem_bin HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /8 HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /_mm HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /9 HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /_mmserverscripts HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
+34.253.159.159 - - [14/Dec/2023:23:08:51 +0000] "GET /96 HTTP/1.0" 302 102 "" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -
 ```
 In Task 2, the log file specified belongs to the web server category, evident from the log's content.
 
+![Screenshot_2023-12-15_01-09-12](https://github.com/5afagy/5afagy.github.io/assets/115117722/7e78c58b-0de2-46e6-99a7-20acb311c628)
 
-Based on the list of log types in this task, what log type is used by the log file specified in the note from Task 2? 
 
-Based on the list of log formats in this task, what log format is used by the log file specified in the note from Task 2?
+**Based on the list of log types in this task, what log type is used by the log file specified in the note from Task 2?** <br>
+
+**Ans:** `Web Server Log` 
+
+**Based on the list of log formats in this task, what log format is used by the log file specified in the note from Task 2?** <br>
+
+**Ans:** `Combined`
+
 ---
-## Task 4 Collection, Management, and Centralisation 
+## Task 4 Collection, Management, and Centralisation
+
+1- Open a Terminal. <br>
+
+2- Ensure rsyslog is Installed: You can check if rsyslog is installed by running the command: `sudo systemctl status rsyslog` <br>
+
+3-  Create a new configuration file:`nano /etc/rsyslog.d/98-websrv-02-sshd.conf`<br>
+
+4- Add the Configuration: Add the following lines in /etc/rsyslog.d/98-websrv-02-sshd.conf to direct the sshd messages to the specific log file: 
+```
+$FileCreateMode 0644 
+
+:programname, isequal, "sshd" /var/log/websrv-02/rsyslog_sshd.log
+```
+5- Save and Close the Configuration File. <br>
+
+
+![Screenshot_2023-12-15_01_44_57](https://github.com/5afagy/5afagy.github.io/assets/115117722/87387bd7-d395-40de-9a92-c74bf3d13a8a)
+
+6- Restart rsyslog: Apply the changes by restarting rsyslog with the command: `sudo systemctl restart rsyslog` <br> 
+
+7- Verify the Configuration: You can verify the configuration works by initiating an SSH connection to localhost via `ssh localhost` <br>
+
+![Screenshot_2023-12-15_01_48_05](https://github.com/5afagy/5afagy.github.io/assets/115117722/5ae41304-2861-4dc7-abbf-f5b9edc477e2)
+
+- Discover the file at /var/log/websrv-02/rsyslog_sshd.log as it contains username.
+  `tail -n13 rsyslog_sshd.log`
+  
+![Screenshot_2023-12-15_01_49_52](https://github.com/5afagy/5afagy.github.io/assets/115117722/9fb97718-998c-443e-84e8-998f0afc0f24)
+
+- Uncover the file that reveals the IP address of SIEM-02 by examining the rsyslog configuration file located at /etc/rsyslog.d/99-websrv-02-cron.conf. <br>
+
+`cat /etc/rsyslog.d/99-websrv-02-cron.conf`
+
+![Screenshot_2023-12-15_01_51_53](https://github.com/5afagy/5afagy.github.io/assets/115117722/a07b0671-5010-4af6-b293-0bc5e581fd81)
+
+- Discovered this file: the logs generated in /var/log/websrv-02/rsyslog_cron.log. Determine the command being executed by the root user.
+  `tail -n13 rsyslog_cron.log`
+  
+![Screenshot_2023-12-15_01_51_08](https://github.com/5afagy/5afagy.github.io/assets/115117722/b43cede7-2cc5-456b-ab91-519a88874473)
+
 
 ---
 ## Task 5 Storage, Retention, and Deletion 
 
+Discovered the logrotate configuration file at `/etc/logrotate.d/99-websrv-02_cron.conf`. It contains information about the retention of old compressed log file copies and specifies the frequency of log rotation.
+
+`cat /etc/logrotate.d/99-websrv-02_cron.conf`
+
+![Screenshot_2023-12-15_02-39-17](https://github.com/5afagy/5afagy.github.io/assets/115117722/0cfcfe75-a8f9-4dd5-b116-23db8fab9cc8)
+
 
 ---
 ## Task 6 Hands-on Exercise: Log analysis process, tools, and techniques 
+Accessing the log viewer URL : http://127.0.0.1:8111/log?log=/var/log/webserv-02/rsyslog_corn.log
+
+Normalisation is standardising parsed data. It involves bringing the various log data into a standard format, making comparing and analysing data from different sources easier. It is imperative in environments with multiple systems and applications, where each might generate logs in another format. 
 
 
+Log enrichment adds context to logs to make them more meaningful and easier to analyse. It could involve adding information like geographical data, user details, threat intelligence, or even data from other sources that can provide a complete picture of the event.
 
-
+Enrichment makes logs more valuable, enabling analysts to make better decisions and more accurately respond to incidents. Like classification, log enrichment can be automated using machine learning, reducing the time and effort required for log analysis. 
