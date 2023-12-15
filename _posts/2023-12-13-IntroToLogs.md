@@ -132,11 +132,13 @@ Enrichment makes logs more valuable, enabling analysts to make better decisions 
 **Answer:** `Enrichment` <br>
 
 ---
+
 ## Tools:
 - [Log Viewer](https://github.com/sevdokimov/log-viewer)
 - [Logrotate](https://github.com/logrotate/logrotate)
 - [Nano](https://www.nano-editor.org/dist/v2.1/nano.html)
-- [Systemctl](https://www.redhat.com/sysadmin/linux-systemctl-manage-services)
+-  [Systemctl](https://www.redhat.com/sysadmin/linux-systemctl-manage-services)
+  
 ---
 
 In closing, remember: every log contributes to the puzzle of securing our digital world.<br>
