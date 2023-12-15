@@ -129,7 +129,7 @@ Log enrichment adds context to logs to make them more meaningful and easier to a
 Enrichment makes logs more valuable, enabling analysts to make better decisions and more accurately respond to incidents. Like classification, log enrichment can be automated using machine learning, reducing the time and effort required for log analysis. 
 
 
-**Answer:** `Enrichment` <br>
+**Answer:** `Enrichment ` <br>
 
 ---
 
