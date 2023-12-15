@@ -126,11 +126,36 @@ Discovered the logrotate configuration file at `/etc/logrotate.d/99-websrv-02_cr
 
 ---
 ## Task 6 Hands-on Exercise: Log analysis process, tools, and techniques 
-Accessing the log viewer URL : http://127.0.0.1:8111/log?log=/var/log/webserv-02/rsyslog_corn.log
+Accessing the log viewer URL : http://MACHINE_IP:8111/log?log=%2Fvar%2Flog%2Fgitlab%2Fnginx%2Faccess.log&log=%2Fvar%2Flog%2Fwebsrv-02%2Frsyslog_cron.log&log=%2Fvar%2Flog%2Fwebsrv-02%2Frsyslog_sshd.log&log=%2Fvar%2Flog%2Fgitlab%2Fgitlab-rails%2Fapi_json.log
+
+
+After this click on add filter icon like this: 
+
+![Screenshot_2023-12-15_16_49_46](https://github.com/5afagy/5afagy.github.io/assets/115117722/cbd5eaa7-8eeb-44da-87f8-1b431b5727b4)
+
+**Answer:** `No date field`<br>
+
 
 Normalisation is standardising parsed data. It involves bringing the various log data into a standard format, making comparing and analysing data from different sources easier. It is imperative in environments with multiple systems and applications, where each might generate logs in another format. 
 
 
+**Answer:** `Normalisation` <br>
+
 Log enrichment adds context to logs to make them more meaningful and easier to analyse. It could involve adding information like geographical data, user details, threat intelligence, or even data from other sources that can provide a complete picture of the event.
 
 Enrichment makes logs more valuable, enabling analysts to make better decisions and more accurately respond to incidents. Like classification, log enrichment can be automated using machine learning, reducing the time and effort required for log analysis. 
+
+
+**Answer:** `Enrichment` <br>
+
+---
+## Tools:
+- [Log Viewer](https://github.com/sevdokimov/log-viewer)
+- [Logrotate](https://github.com/logrotate/logrotate)
+- [Nano](https://www.nano-editor.org/dist/v2.1/nano.html)
+- [Systemctl](https://www.redhat.com/sysadmin/linux-systemctl-manage-services)
+---
+
+In closing, remember: every log contributes to the puzzle of securing our digital world.<br>
+
+Stay curious, stay vigilant, and keep exploring the dynamic realm of cybersecurity.
