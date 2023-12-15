@@ -21,7 +21,7 @@ timezone:
 
 title: KHAFAGY                          # the main title
 
-tagline: Security Analyst | Bug Hunter  # it will display as the sub-title
+tagline: Security Analyst || Bug Hunter  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
    ### Penetration Tester | Bug Hunter ###
