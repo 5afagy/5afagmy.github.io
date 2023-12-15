@@ -17,23 +17,9 @@ Explore these concepts in a hands-on way with the resources available at TryHack
 ## Task 2 Expanding Perspectives: Logs as Evidence of Historical Activity 
 
 **Step 1:** Start machine 
-
- <span style="text-align: left; padding-left: 20px; font-size: 20px; width: 100%;">
-            <table style="width: 100%; border-spacing: 4px; border-collapse: separate;">
-                <tbody>
-                    <tr>
-                        <td style="width: 110px;"><b>Username</b></td>
-                        <td style="background-color: white; border-radius: 5px; padding: 4px; --darkreader-inline-bgcolor: #181a1b;">damianhall</td>
-                    </tr>
-                    <tr>
-                        <td><b>Password</b></td>
-                        <td style="background-color: white; border-radius: 5px; padding: 4px; --darkreader-inline-bgcolor: #181a1b;">Logs321!</td>
-                    </tr>
-                    <tr>
-                    </tr>
-                </tbody>
-            </table>
- </span>
+Username: damianhall
+Password: Logs321! 
+<br>
  
 Upon accessing the machine, I discovered a note.txt file on the desktop. Upon inspection, I found the solution to the questions in Task 2, which involved identifying the name of the colleague who left the note on the desktop and determining the full path to the suggested log file for initial investigation.
 
