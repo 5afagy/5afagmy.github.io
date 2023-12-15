@@ -16,9 +16,9 @@ Explore these concepts in a hands-on way with the resources available at TryHack
 
 ## Task 2 Expanding Perspectives: Logs as Evidence of Historical Activity 
 
-**Step 1:** Start machine 
-Username: damianhall
-Password: Logs321! 
+**Step 1:** Start machine  <br>
+- Username: damianhall <br>
+- Password: Logs321! <br>
 <br>
  
 Upon accessing the machine, I discovered a note.txt file on the desktop. Upon inspection, I found the solution to the questions in Task 2, which involved identifying the name of the colleague who left the note on the desktop and determining the full path to the suggested log file for initial investigation.
