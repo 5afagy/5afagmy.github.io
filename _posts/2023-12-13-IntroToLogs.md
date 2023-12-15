@@ -16,7 +16,7 @@ Explore these concepts in a hands-on way with the resources available at TryHack
 
 ## Task 2 Expanding Perspectives: Logs as Evidence of Historical Activity 
 
-**Step 1:** Start machine  <br>
+**Step 1:** Start machine  
 - Username: damianhall <br>
 - Password: Logs321! <br>
 <br>
